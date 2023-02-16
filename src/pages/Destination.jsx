@@ -53,7 +53,7 @@ const Destination = () => {
       <div className="data-wrap w-full mt-8">
         <div className="search-wrap">
           <form>
-            <label className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">
+            <label className="mb-2 text-sm font-medium text-gray-900 sr-only">
               Search
             </label>
             <div className="relative">
