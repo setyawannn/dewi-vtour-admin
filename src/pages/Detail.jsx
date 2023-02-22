@@ -50,7 +50,7 @@ const Detail = () => {
 
     axios
       .put(
-        `https://api-dewi-vtour.vercel.app/api/tour/${updateData._id}`,
+        `https://api-dewi-vtour.vercel.app/api/tour/${id_destination}`,
         updateData
       )
       .then((e) => {
