@@ -61,6 +61,8 @@ const Detail = () => {
       });
   };
 
+  console.log(updateData);
+
   return (
     <section className="detail h-5/6">
       <h2 className="text-2xl font-semibold text-gray-900 mb-5">Detail Tour</h2>
@@ -84,6 +86,7 @@ const Detail = () => {
                   key={val._id}
                   className="grid gap-6 mb-6 md:grid-cols-2 mt-10"
                 >
+                  <input type="hidden" value={val._id} />
                   <Input
                     colspan=""
                     label="Nama Desa Wisata"
